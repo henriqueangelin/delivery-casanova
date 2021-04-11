@@ -19,6 +19,11 @@ header{
     align-items: center;
 }
 
+#logo-id{
+    font-family: fantasy;
+    font-size: 1.75em;
+}
+
 section > div{
     height: auto;
     width: 150px;
@@ -162,4 +167,69 @@ main h2{
     font-family:Georgia, 'Times New Roman', Times, serif;
     padding-top: 14px;
     font-weight: 500;
+}
+
+/* -------------------------PÁGINA 2 ----------------------*/
+
+div.page2{
+    all: initial;
+}
+.section-page2{
+    all: initial;
+    padding: 2%;
+    height: 100%;
+}
+
+.section-page2 > img{
+    all:initial;
+    padding:2%;
+}
+
+.qwe{
+    all:initial;
+    display: flex;
+    justify-content: space-between;
+    flex: 0 1 auto;
+}
+
+.qwe p{
+    padding: 2%;
+}
+
+.qwe img{
+    border-radius: 0;
+}
+
+.info-produto p{
+    padding: 2%;
+}
+
+.comprar{
+    all:initial;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    flex: 1 1 0;
+    padding: 3% 1%;
+    
+}
+
+#comprar{
+    background-color: rgba(22, 138, 69);
+    color:white;
+    height: 40px;
+    width: 40%;
+}
+
+#voltar{
+    background-color: rgba(250, 65, 58);
+    color:white;
+    width: 40%;
+}
+
+.footerpagina2{
+    position: absolute;
+    bottom: 0;
+    width: 100%;   
+    text-align: center;
 }
