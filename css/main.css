@@ -177,7 +177,7 @@ div.page2{
 .section-page2{
     all: initial;
     padding: 2%;
-    height: 100%;
+    height: 1000px;
 }
 
 .section-page2 > img{
@@ -228,7 +228,8 @@ div.page2{
 }
 
 .footerpagina2{
+    background-color: white;
+    bottom: 0;
     position: absolute;
-    bottom: 0;   
-    text-align: center;
+    width: 92%;
 }
