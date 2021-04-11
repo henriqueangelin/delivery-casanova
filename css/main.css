@@ -1,0 +1,165 @@
+*{
+    font-family: 'PT Serif', serif;
+    margin: 0;
+    border:none
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color:#e9e9e9;
+}
+
+header{
+    background-color: white;
+    height: 70px;
+    flex-direction: row;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section > div{
+    height: auto;
+    width: 150px;
+    background-color: white;
+    border-radius: 5%;
+    border:2px solid black
+}
+
+section > div > img{
+    border-radius: 5% 5% 0 0;
+}
+
+section{
+    display: flex;
+    flex-flow: row wrap;
+    height: 1150px;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+footer{
+    background-color:white;
+    padding:4%;
+    text-align:center;
+}
+
+/* ------------ ESBOÇO PRONTO ---------------*/
+
+
+
+.menu{
+    background:linear-gradient(orange, rgb(255, 230, 0));
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.menu > i{
+    font-size: 25px;
+    margin-top: 10.5px;
+    color:white;
+}
+
+.serviços{
+    font-weight: 800;
+    color:orange;
+    margin-left: 10px;
+}
+
+.serviços i{
+    color:black;
+}
+
+.logo > p{
+    font-family:fantasy;
+    font-size: 1.75em;
+}
+
+/*------------- NAVEGAÇÃO SERVIÇOS --------------*/
+.navserviços{
+    background-color:white;
+    height: 100%;
+    width: 40%;
+    top: 0;
+    position: fixed;
+    color:black;
+    border-right: 2px solid rgb(43, 42, 42);
+    display:none;
+}
+
+.ul{
+    margin-top: 26px;
+}
+
+.btn-close{
+    float:right;
+    margin: 2% 4%;
+}
+
+.btn-close:hover{
+    color:red;
+}
+
+.ul li{
+    
+    padding: 2%;
+}
+
+ul{
+    list-style: none;
+    padding:0;
+}
+
+ul :first-child{
+    border-top:1px solid black;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    border:none;
+    outline: none;
+}
+
+ul li:hover{
+    color:orange;
+}
+
+/*------------ CORPO ----------------*/
+
+.info p{
+    padding: 1%;
+}
+
+main{
+    text-align: center;
+    background-color: white;
+}
+
+main h2{
+    font-size:1.5em;
+    color:orange;
+    font-family:arial;
+    padding-top:2%;
+    text-transform: uppercase;
+}
+
+.info{
+    background: url(../img/casanova2.png) fixed;
+    height: 80px;
+    color:white;
+    font-size: 1.25em;
+    text-transform:uppercase;
+    text-align:center;
+}
+
+.info p{
+    padding:2%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: 14px;
+    font-weight: 500;
+}
